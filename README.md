@@ -2,13 +2,15 @@
 
 **基于 MACE 机器学习力场的晶体平衡性质计算与验证**
 
-使用官方预训练 `MACE-MP-0b3 medium` 力场，通过 NVIDIA GPU 计算金刚石 Si 与面心立方 Al 的能量—体积曲线，拟合平衡体积、晶格常数和体模量，并验证压力、周期性及浮点精度。
+使用 MACE 预训练机器学习力场与 NVIDIA GPU，计算硅和铝的静态晶格平衡性质，包含能量—体积扫描、状态方程拟合、压力与精度验证，以及可复现代码、结果图表和中文报告。
+
+实际使用官方 `MACE-MP-0b3 medium` 模型，研究金刚石 Si 与面心立方 Al，拟合平衡体积、晶格常数和体模量，并验证压力、周期性及浮点精度。
 
 这是预训练 MLFF 的应用与验证项目。研究对象是**固定晶相、静态晶格、近似零温条件**，没有零点振动或有限温度修正；不应把结果称为室温性质。本项目没有训练 MACE、没有执行新的 DFT 计算，也不把拟合残差当作模型的物理预测不确定度。
 
 [English](README_EN.md) · [中文实际计算报告](docs/report_zh.md) · [中文原理说明](docs/principles_zh.md) · [模型记录](docs/model_card.md) · [参考文献数据](references/) · [GitHub 上传步骤](docs/github_upload.md)
 
-私有仓库：[M1sumiUika/mace-crystal-equilibrium](https://github.com/M1sumiUika/mace-crystal-equilibrium)。本地实际测试 **18 passed**（包含 CUDA 端到端 smoke），详见 [测试输出](results/test_summary.txt)。
+公开仓库：[M1sumiUika/mace-crystal-equilibrium](https://github.com/M1sumiUika/mace-crystal-equilibrium)。本地实际测试 **18 passed**（包含 CUDA 端到端 smoke），详见 [测试输出](results/test_summary.txt)。
 
 ## 已实际完成的结果
 

@@ -1,6 +1,6 @@
 # mace-crystal-equilibrium
 
-Private repository: [M1sumiUika/mace-crystal-equilibrium](https://github.com/M1sumiUika/mace-crystal-equilibrium). Actual local test result: **18 passed**, including the CUDA end-to-end smoke test; see [test output](results/test_summary.txt).
+Public repository: [M1sumiUika/mace-crystal-equilibrium](https://github.com/M1sumiUika/mace-crystal-equilibrium). Actual local test result: **18 passed**, including the CUDA end-to-end smoke test; see [test output](results/test_summary.txt).
 
 Against the verified static PBE/WIEN2k references, predicted bulk moduli are **8.42% lower for Si** and **25.13% lower for Al**. These differences exceed the tested numerical sensitivity; consistency checks do not establish physical accuracy.
 
