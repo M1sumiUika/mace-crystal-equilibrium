@@ -23,4 +23,3 @@ tests/test_structures.py::test_volume_scan_preserves_fractional_coordinates[1.1-
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
 
 18 passed, 5 warnings in 13.67s
-
