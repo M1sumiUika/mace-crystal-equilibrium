@@ -1,0 +1,32 @@
+{
+  "initialization_seconds": 0.15868539999974018,
+  "parameter_devices": [
+    "cuda:0"
+  ],
+  "dtype": "float64",
+  "head": "default",
+  "parameter_dtypes": [
+    "torch.float64"
+  ],
+  "available_heads": [
+    "default"
+  ],
+  "parameters": 9063204,
+  "implemented_properties": [
+    "energy",
+    "energies",
+    "free_energy",
+    "node_energy",
+    "forces",
+    "stress"
+  ],
+  "input_tensor_devices": [
+    "cuda:0"
+  ],
+  "warmup_seconds": [
+    0.49750870000025316,
+    0.4744168000006539,
+    0.9072539000007964
+  ],
+  "warmup_repeats": 3
+}

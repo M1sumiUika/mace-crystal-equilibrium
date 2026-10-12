@@ -1,0 +1,17 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+*.model
+*.pt
+*.pth
+.env
+.env.*
+*token*
+*.log.tmp
+build/
+dist/
+1.py
+

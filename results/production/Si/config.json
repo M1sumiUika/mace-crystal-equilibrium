@@ -1,0 +1,19 @@
+{
+  "mode": "production",
+  "model": "MACE-MP-0b3-medium",
+  "dtype": "float64",
+  "device": "cuda",
+  "head": "default",
+  "coarse_points": 21,
+  "coarse_volume_fraction": 0.1,
+  "fine_points": 21,
+  "fine_volume_fraction": 0.04,
+  "validations": [
+    "pressure",
+    "optimize",
+    "periodicity",
+    "precision",
+    "timing"
+  ],
+  "material": "Si"
+}

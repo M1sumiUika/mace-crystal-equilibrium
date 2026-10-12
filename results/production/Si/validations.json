@@ -1,0 +1,255 @@
+{
+  "forces": {
+    "max_scan_force_eV_A": 1.630094359435763e-14,
+    "tolerance_eV_A": 0.001,
+    "passed": true,
+    "reason": "Ideal diamond and fcc sites are symmetry stationary under isotropic cubic strain; numerical forces verified."
+  },
+  "pressure": {
+    "at_eos_V0_pressure_GPa": -7.059746210360559e-05,
+    "central_differences": [
+      {
+        "fractional_volume_step": 0.002,
+        "energy_derivative_pressure_GPa": 0.00014994801817910471,
+        "stress_pressure_GPa": -7.059746210360559e-05,
+        "difference_GPa": 0.0002205454802827103
+      },
+      {
+        "fractional_volume_step": 0.001,
+        "energy_derivative_pressure_GPa": -1.546100997085813e-05,
+        "stress_pressure_GPa": -7.059746210360559e-05,
+        "difference_GPa": 5.5136452132747456e-05
+      }
+    ],
+    "equilibrium_tolerance_GPa": 0.1,
+    "derivative_tolerance_GPa": 0.02,
+    "passed": true,
+    "convention": "ASE tensile stress positive, P=-trace(stress)/3; stress eV/A^3; no kinetic stress."
+  },
+  "optimize": {
+    "method": "Independent stress-gradient BFGS on ln(a), ideal fractional coordinates fixed, external P=0",
+    "a0_A": 5.470992297536704,
+    "delta_a_vs_EOS_A": -1.6032755079109506e-06,
+    "pressure_GPa": 6.513966182253955e-07,
+    "optimizer_success": true,
+    "message": "Optimization terminated successfully.",
+    "evaluations": 6,
+    "a_tolerance_A": 0.002,
+    "pressure_tolerance_GPa": 0.01,
+    "passed": true
+  },
+  "periodicity": {
+    "cells": [
+      {
+        "n_atoms": 2,
+        "a_A": 5.4709939008122115,
+        "volume_A3_cell": 40.93913860796331,
+        "volume_A3_atom": 20.469569303981654,
+        "energy_eV_cell": -10.767119513074892,
+        "energy_eV_atom": -5.383559756537446,
+        "max_force_eV_A": 2.6760805114100603e-16,
+        "pressure_GPa": -7.059746211178531e-05,
+        "seconds": 0.6896834999997736,
+        "stress_eV_A3": [
+          [
+            4.406347004232182e-07,
+            1.6077304882978024e-17,
+            1.6667497513706448e-17
+          ],
+          [
+            1.6077304882978024e-17,
+            4.40634700368678e-07,
+            4.6273114843216104e-18
+          ],
+          [
+            1.6667497513706448e-17,
+            4.6273114843216104e-18,
+            4.4063470042192733e-07
+          ]
+        ],
+        "stress_xx_eV_A3": 4.406347004232182e-07,
+        "stress_xy_eV_A3": 1.6077304882978024e-17,
+        "stress_xz_eV_A3": 1.6667497513706448e-17,
+        "stress_yx_eV_A3": 1.6077304882978024e-17,
+        "stress_yy_eV_A3": 4.40634700368678e-07,
+        "stress_yz_eV_A3": 4.6273114843216104e-18,
+        "stress_zx_eV_A3": 1.6667497513706448e-17,
+        "stress_zy_eV_A3": 4.6273114843216104e-18,
+        "stress_zz_eV_A3": 4.4063470042192733e-07,
+        "cell": "primitive"
+      },
+      {
+        "n_atoms": 8,
+        "a_A": 5.470993900812211,
+        "volume_A3_cell": 163.75655443185317,
+        "volume_A3_atom": 20.469569303981647,
+        "energy_eV_cell": -43.06847805229956,
+        "energy_eV_atom": -5.383559756537445,
+        "max_force_eV_A": 4.7095524058879384e-15,
+        "pressure_GPa": -7.059746210318742e-05,
+        "seconds": 0.048314900000150374,
+        "stress_eV_A3": [
+          [
+            4.406347003642162e-07,
+            3.4435421013510073e-17,
+            3.5297420017380144e-17
+          ],
+          [
+            3.4435421013510073e-17,
+            4.4063470032626925e-07,
+            2.348891716350056e-17
+          ],
+          [
+            3.5297420017380144e-17,
+            2.348891716350056e-17,
+            4.4063470036234677e-07
+          ]
+        ],
+        "stress_xx_eV_A3": 4.406347003642162e-07,
+        "stress_xy_eV_A3": 3.4435421013510073e-17,
+        "stress_xz_eV_A3": 3.5297420017380144e-17,
+        "stress_yx_eV_A3": 3.4435421013510073e-17,
+        "stress_yy_eV_A3": 4.4063470032626925e-07,
+        "stress_yz_eV_A3": 2.348891716350056e-17,
+        "stress_zx_eV_A3": 3.5297420017380144e-17,
+        "stress_zy_eV_A3": 2.348891716350056e-17,
+        "stress_zz_eV_A3": 4.4063470036234677e-07,
+        "cell": "conventional"
+      },
+      {
+        "n_atoms": 64,
+        "a_A": 5.470993900812211,
+        "volume_A3_cell": 1310.0524354548256,
+        "volume_A3_atom": 20.46956930398165,
+        "energy_eV_cell": -344.5478244183968,
+        "energy_eV_atom": -5.38355975653745,
+        "max_force_eV_A": 1.084560332772092e-14,
+        "pressure_GPa": -7.059746210525044e-05,
+        "seconds": 0.2649999999994179,
+        "stress_eV_A3": [
+          [
+            4.406347003592876e-07,
+            -1.2002617789952381e-17,
+            -1.1468944013701325e-17
+          ],
+          [
+            -1.2002617789952381e-17,
+            4.406347003602014e-07,
+            -8.777536682886963e-18
+          ],
+          [
+            -1.1468944013701325e-17,
+            -8.777536682886963e-18,
+            4.406347003719725e-07
+          ]
+        ],
+        "stress_xx_eV_A3": 4.406347003592876e-07,
+        "stress_xy_eV_A3": -1.2002617789952381e-17,
+        "stress_xz_eV_A3": -1.1468944013701325e-17,
+        "stress_yx_eV_A3": -1.2002617789952381e-17,
+        "stress_yy_eV_A3": 4.406347003602014e-07,
+        "stress_yz_eV_A3": -8.777536682886963e-18,
+        "stress_zx_eV_A3": -1.1468944013701325e-17,
+        "stress_zy_eV_A3": -8.777536682886963e-18,
+        "stress_zz_eV_A3": 4.406347003719725e-07,
+        "cell": "2x2x2_conventional"
+      }
+    ],
+    "energy_spread_eV_atom": 4.440892098500626e-15,
+    "max_stress_difference_GPa": 9.545858460970192e-15,
+    "energy_tolerance_eV_atom": 1e-06,
+    "stress_tolerance_GPa": 0.0001,
+    "passed": true
+  },
+  "precision": {
+    "other_dtype": "float32",
+    "calculator": {
+      "initialization_seconds": 0.17259120000016992,
+      "parameter_devices": [
+        "cuda:0"
+      ],
+      "dtype": "float32",
+      "head": "default",
+      "parameter_dtypes": [
+        "torch.float32"
+      ],
+      "available_heads": [
+        "default"
+      ],
+      "parameters": 9063204,
+      "implemented_properties": [
+        "energy",
+        "energies",
+        "free_energy",
+        "node_energy",
+        "forces",
+        "stress",
+        "energy",
+        "energies",
+        "free_energy",
+        "node_energy",
+        "forces",
+        "stress"
+      ],
+      "input_tensor_devices": [
+        "cuda:0"
+      ],
+      "warmup_seconds": [
+        0.12259109999922657,
+        0.610253200000443,
+        0.08901139999943553
+      ]
+    },
+    "fit": {
+      "eos": "birchmurnaghan",
+      "E0_eV_atom": -5.383560127393734,
+      "V0_A3_atom": 20.46954079620068,
+      "V0_A3_cell": 163.75632636960543,
+      "B0_eV_A3": 0.5060813435639006,
+      "B0_GPa": 81.08317035614077,
+      "Bprime": 3.0701661734202483,
+      "a0_A": 5.470991361010063,
+      "natoms_conventional": 8,
+      "npoints": 21,
+      "volume_min_A3_atom": 19.649770050510636,
+      "volume_max_A3_atom": 21.28725088805317,
+      "rmse_meV_atom": 0.0008607288360620921,
+      "max_residual_meV_atom": 0.0016637675374093358,
+      "curvature_eV_per_A6_atom": 0.02472362954316169,
+      "minimum_bracketed": true,
+      "sampled_minimum_interior": true,
+      "positive_curvature": true,
+      "optimizer_success": true,
+      "optimizer_message": "`xtol` termination condition is satisfied.",
+      "jacobian_condition_number": 52282.51759538736,
+      "fit_warnings": [],
+      "numerical_diagnostics_note": "Fit residuals and EOS/range/point-count sensitivity are numerical diagnostics, not physical uncertainty estimates for the pretrained model."
+    },
+    "delta_a_A": -2.539802148149306e-06,
+    "delta_B_GPa": -0.0026530436219758258,
+    "max_abs_delta_energy_eV_atom": 1.267492968359818e-06,
+    "max_abs_delta_pressure_GPa": 4.257200002181268e-05,
+    "other_median_seconds": 0.030653800000436604,
+    "primary_median_seconds": 0.04559799999969982,
+    "a_tolerance_A": 0.001,
+    "B_tolerance_GPa": 0.5,
+    "passed": true
+  },
+  "timing": {
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "model": "MACE-MP-0b3-medium",
+    "dtype": "float64",
+    "n_atoms": 8,
+    "repeats": 5,
+    "seconds": [
+      0.04591230000005453,
+      0.04732960000001185,
+      0.0461739000002126,
+      0.04461390000051324,
+      0.04500140000072861
+    ],
+    "median_seconds": 0.04591230000005453,
+    "max_memory_allocated_bytes_process": 624029184,
+    "scope": "Synchronized wall time of ASE energy+forces+stress; includes graph construction and host overhead; excludes download/load/warmup; calculator cache reset each repeat; no CPU speedup claimed"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "error": "Resume rejected: configuration, model hash or dependency versions differ",
+  "timestamp": "2026-10-12T16:23:00.293075+08:00",
+  "requested_config": {
+    "mode": "smoke",
+    "model": "MACE-MP-0b3-medium",
+    "dtype": "float32",
+    "device": "cuda",
+    "head": "default",
+    "coarse_points": 5,
+    "coarse_volume_fraction": 0.04,
+    "fine_points": 0,
+    "fine_volume_fraction": 0.04,
+    "validations": [],
+    "material": "Si"
+  }
+}

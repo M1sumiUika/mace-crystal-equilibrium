@@ -1,0 +1,13 @@
+{
+  "mode": "smoke",
+  "model": "MACE-MP-0b3-medium",
+  "dtype": "float64",
+  "device": "cuda",
+  "head": "Default",
+  "coarse_points": 5,
+  "coarse_volume_fraction": 0.04,
+  "fine_points": 0,
+  "fine_volume_fraction": 0.04,
+  "validations": [],
+  "material": "Si"
+}

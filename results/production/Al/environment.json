@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-10-12T16:19:01.889508+08:00",
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "versions": {
+    "mace-torch": "0.3.16",
+    "torch": "2.6.0+cu126",
+    "ase": "3.26.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "e3nn": "0.4.4"
+  },
+  "torch_cuda_runtime": "12.6",
+  "cuda_available": true,
+  "nvidia_smi": "name, driver_version, memory.total [MiB], memory.free [MiB]\nNVIDIA GeForce RTX 4060 Laptop GPU, 616.64, 8188 MiB, 6566 MiB",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "total_memory_bytes": 8585216000,
+  "compute_capability": [
+    8,
+    9
+  ],
+  "cuda_float64_probe": 4.0
+}

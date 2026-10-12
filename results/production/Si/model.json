@@ -1,0 +1,18 @@
+{
+  "name": "MACE-MP-0b3-medium",
+  "release": "mace_mp_0b3",
+  "size": "medium",
+  "source": "https://github.com/ACEsuit/mace-foundations/releases/download/mace_mp_0b3/mace-mp-0b3-medium.model",
+  "sha256": "2f2be696351ac9e94fbe01cdfb6f017679acdbd2db7645209ef55fec9826b012",
+  "size_bytes": 79472952,
+  "downloaded_this_process": false,
+  "download_seconds_this_process": 0.0,
+  "scope": "periodic materials, MPTrj PBE(+U), 89 elements",
+  "dispersion": false,
+  "original_download": {
+    "download_seconds": 83.20020269999986,
+    "timestamp": "2026-10-12T16:09:17.851830+08:00",
+    "url": "https://github.com/ACEsuit/mace-foundations/releases/download/mace_mp_0b3/mace-mp-0b3-medium.model",
+    "sha256": "2f2be696351ac9e94fbe01cdfb6f017679acdbd2db7645209ef55fec9826b012"
+  }
+}

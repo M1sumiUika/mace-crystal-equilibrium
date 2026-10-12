@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mace-crystal-equilibrium"
+version = "0.1.0"
+description = "Reproducible CUDA MACE static-lattice equation-of-state validation for Si and Al"
+requires-python = ">=3.10"
+dependencies = ["mace-torch==0.3.16", "ase==3.26.0", "numpy>=1.26,<3", "scipy>=1.13,<2", "matplotlib>=3.8,<4"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+mce = "mace_crystal_equilibrium.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["gpu: actual CUDA integration test, opt in with MCE_GPU_TEST=1"]
+

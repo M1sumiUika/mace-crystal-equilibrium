@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "mode": "smoke",
+  "formal_results": false,
+  "n_points": 5,
+  "cuda_verified": true
+}

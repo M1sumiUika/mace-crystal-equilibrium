@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.png binary
+*.svg linguist-generated=true -whitespace
+*.extxyz linguist-generated=true -whitespace
+# 文件末尾的额外空行不改变程序，保留运行时源码字节以供哈希核对。
+*.py whitespace=-blank-at-eof
+*.json whitespace=-blank-at-eof
+*.toml whitespace=-blank-at-eof
+.gitignore whitespace=-blank-at-eof
+# 保留上游证据文件字节，避免破坏记录的 SHA256。放在通用规则之后。
+references/sources/* -text -whitespace

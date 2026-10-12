@@ -1,0 +1,6 @@
+{
+  "status": "initialization_failed",
+  "formal_results": false,
+  "error": "MACE selected head 'default', requested 'Default'",
+  "inference_points": 0
+}

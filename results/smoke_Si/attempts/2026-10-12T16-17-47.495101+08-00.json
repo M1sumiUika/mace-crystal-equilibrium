@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-10-12T16:17:47.495101+08:00",
+  "environment": {
+    "timestamp": "2026-10-12T16:17:46.788987+08:00",
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+    "versions": {
+      "mace-torch": "0.3.16",
+      "torch": "2.6.0+cu126",
+      "ase": "3.26.0",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "e3nn": "0.4.4"
+    },
+    "torch_cuda_runtime": "12.6",
+    "cuda_available": true,
+    "nvidia_smi": "name, driver_version, memory.total [MiB], memory.free [MiB]\nNVIDIA GeForce RTX 4060 Laptop GPU, 616.64, 8188 MiB, 6574 MiB",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "total_memory_bytes": 8585216000,
+    "compute_capability": [
+      8,
+      9
+    ],
+    "cuda_float64_probe": 4.0
+  },
+  "source_hashes": {
+    "backend.py": "534aa5065dab501165fffee013d5353ca33ddfb0a382503de587756908b8edce",
+    "cli.py": "f61051d2babf89c2b18685edfc3aeea71c8a3fb6e9fa4bd4a7596f52cf4e046c",
+    "eos.py": "c0c4d9f6d625111c7f819479b4445bc5c4e44946f57554de74d1bb28634a0208",
+    "plotting.py": "c51a7ed138275b984b1acc3684f316441b9dedfc884811ebb1900d79c450462c",
+    "runner.py": "f38e1136436e9d1aed0d9f7755b093ed9ce076001fa785dad06a61623c132bfe",
+    "structures.py": "910ce7edb56f5a0ac3519f8595e968bdf9453e74fd2ce949e0a28e3a517b29b8",
+    "units.py": "dbff57aa8f8938241a2c4c359abf71fcd6432afb867a6039a8ec98827b60cc2f",
+    "__init__.py": "59a5a2512ffefd65ea94c31c298fadb9a35c5ba836e81fce790929921768df35",
+    "__main__.py": "11cf323249f4ba4e79c9fb7660c0979fc91a3822bc5362286376b69808b41195"
+  },
+  "resume": false
+}

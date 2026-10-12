@@ -1,0 +1,31 @@
+﻿{
+    "title":  [
+                  "Low-Temperature Elastic Moduli of Aluminum"
+              ],
+    "publisher":  "AIP Publishing",
+    "DOI":  "10.1063/1.1713309",
+    "issued":  {
+                   "date-parts":  [
+                                      [
+                                          1964,
+                                          2,
+                                          1
+                                      ]
+                                  ]
+               },
+    "link":  [
+                 {
+                     "URL":  "https://pubs.aip.org/aip/jap/article-pdf/35/2/327/18330967/327_1_online.pdf",
+                     "content-type":  "application/pdf",
+                     "content-version":  "vor",
+                     "intended-application":  "syndication"
+                 },
+                 {
+                     "URL":  "https://pubs.aip.org/aip/jap/article-pdf/35/2/327/18330967/327_1_online.pdf",
+                     "content-type":  "unspecified",
+                     "content-version":  "vor",
+                     "intended-application":  "similarity-checking"
+                 }
+             ],
+    "member":  "317"
+}

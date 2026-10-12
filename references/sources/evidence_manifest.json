@@ -1,0 +1,41 @@
+{
+  "access_date_local": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "delta": {
+    "repository": "https://github.com/molmod/DeltaCodesDFT",
+    "commit": "f9b6693763dea92d43ee48f172c02bc506876f06",
+    "file": "WIEN2k.txt",
+    "sha256": "b9702aebe1063eca970f7a9bd2f25879584ab342bfc51a8c646ef7b18c8debaa",
+    "header": "WIEN2k version 13.1, calcDelta package version 3.0",
+    "Si_row": [20.4530, 88.545, 4.31],
+    "Al_row": [16.4796, 78.077, 4.57],
+    "units": ["angstrom^3/atom", "GPa", "dimensionless"],
+    "a0_conversion": "a0 = (n_conventional_atoms * V0_atom) ** (1/3)"
+  },
+  "nist": {
+    "url": "https://tsapps.nist.gov/srmext/certificates/archives/640f.pdf",
+    "certificate_issue_date": "2019-02-26",
+    "verified_page": 1,
+    "a_nm": 0.5431144,
+    "expanded_uncertainty_nm": 0.000008,
+    "coverage_factor": 2,
+    "temperature_C": 22.5,
+    "access_method": "web PDF text read; full PDF not stored locally"
+  },
+  "al_ultrasound": {
+    "doi": "10.1063/1.1713309",
+    "evidence_url": "https://api.crossref.org/works/10.1063/1.1713309",
+    "publisher": "AIP Publishing",
+    "access_method": "Publisher-deposited abstract retrieved successfully with Crossref REST API; publisher full PDF inaccessible",
+    "C11_GPa": 114.30,
+    "C12_GPa": 61.92,
+    "C44_GPa": 31.62,
+    "derived_B_GPa": 79.38,
+    "temperature_condition": "Measurements 4.2-300 K; listed elastic constants extrapolated to 0 K; zero-point contribution not removed",
+    "status": "verified_abstract"
+  },
+  "not_verified": [
+    "Si experimental bulk modulus from a fully checked original source",
+    "Al experimental lattice constant from a fully checked original source"
+  ]
+}

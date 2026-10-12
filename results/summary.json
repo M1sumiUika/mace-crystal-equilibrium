@@ -1,0 +1,92 @@
+{
+  "Si": {
+    "fit": {
+      "eos": "birchmurnaghan",
+      "E0_eV_atom": -5.383560258891813,
+      "V0_A3_atom": 20.469569303981658,
+      "V0_A3_cell": 163.75655443185326,
+      "B0_eV_A3": 0.5060979025597421,
+      "B0_GPa": 81.08582339976275,
+      "Bprime": 3.0648192796941083,
+      "a0_A": 5.4709939008122115,
+      "natoms_conventional": 8,
+      "npoints": 21,
+      "volume_min_A3_atom": 19.649770050510636,
+      "volume_max_A3_atom": 21.28725088805317,
+      "rmse_meV_atom": 0.0004639915754280562,
+      "max_residual_meV_atom": 0.0010243060274313376,
+      "curvature_eV_per_A6_atom": 0.024724404067519776,
+      "minimum_bracketed": true,
+      "sampled_minimum_interior": true,
+      "positive_curvature": true,
+      "optimizer_success": true,
+      "optimizer_message": "`xtol` termination condition is satisfied.",
+      "jacobian_condition_number": 52280.053622677355,
+      "fit_warnings": [],
+      "numerical_diagnostics_note": "Fit residuals and EOS/range/point-count sensitivity are numerical diagnostics, not physical uncertainty estimates for the pretrained model.",
+      "label": "fine_full_BM3",
+      "stage": "fine",
+      "delta_a0_A": 0.0,
+      "delta_B0_GPa": 0.0
+    },
+    "status": {
+      "status": "completed",
+      "mode": "production",
+      "formal_results": true,
+      "failed_validations": [],
+      "timestamp": "2026-10-12T16:18:40.383418+08:00"
+    },
+    "validation_passed": {
+      "forces": true,
+      "pressure": true,
+      "optimize": true,
+      "periodicity": true,
+      "precision": true
+    }
+  },
+  "Al": {
+    "fit": {
+      "eos": "birchmurnaghan",
+      "E0_eV_atom": -3.7090568090432052,
+      "V0_A3_atom": 16.77074809951506,
+      "V0_A3_cell": 67.08299239806024,
+      "B0_eV_A3": 0.36483874549847517,
+      "B0_GPa": 58.453611321552955,
+      "Bprime": 3.6207676401649156,
+      "a0_A": 4.063224411559537,
+      "natoms_conventional": 4,
+      "npoints": 21,
+      "volume_min_A3_atom": 16.095047969030965,
+      "volume_max_A3_atom": 17.43630196645021,
+      "rmse_meV_atom": 0.0011458473849141212,
+      "max_residual_meV_atom": 0.002208046174321382,
+      "curvature_eV_per_A6_atom": 0.021754470542016235,
+      "minimum_bracketed": true,
+      "sampled_minimum_interior": true,
+      "positive_curvature": true,
+      "optimizer_success": true,
+      "optimizer_message": "`xtol` termination condition is satisfied.",
+      "jacobian_condition_number": 88540.64202658668,
+      "fit_warnings": [],
+      "numerical_diagnostics_note": "Fit residuals and EOS/range/point-count sensitivity are numerical diagnostics, not physical uncertainty estimates for the pretrained model.",
+      "label": "fine_full_BM3",
+      "stage": "fine",
+      "delta_a0_A": 0.0,
+      "delta_B0_GPa": 0.0
+    },
+    "status": {
+      "status": "completed",
+      "mode": "production",
+      "formal_results": true,
+      "failed_validations": [],
+      "timestamp": "2026-10-12T16:19:19.216047+08:00"
+    },
+    "validation_passed": {
+      "forces": true,
+      "pressure": true,
+      "optimize": true,
+      "periodicity": true,
+      "precision": true
+    }
+  }
+}

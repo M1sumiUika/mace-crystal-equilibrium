@@ -1,0 +1,26 @@
+..................                                                       [100%]
+
+============================== warnings summary ===============================
+
+tests/test_structures.py::test_atom_counts_and_volume_to_lattice[Si-8-2]
+
+tests/test_structures.py::test_volume_scan_preserves_fractional_coordinates[0.9-Si]
+
+tests/test_structures.py::test_volume_scan_preserves_fractional_coordinates[0.9-Al]
+
+tests/test_structures.py::test_volume_scan_preserves_fractional_coordinates[1.1-Si]
+
+tests/test_structures.py::test_volume_scan_preserves_fractional_coordinates[1.1-Al]
+
+  C:\Users\24995\Desktop\mace-crystal-equilibrium\.venv\Lib\site-packages\ase\atoms.py:585: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+
+  As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+
+    a.shape = (-1,) + shape
+
+
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+
+18 passed, 5 warnings in 13.67s
+

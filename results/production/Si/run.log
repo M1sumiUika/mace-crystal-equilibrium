@@ -1,0 +1,80 @@
+2026-10-12 16:18:06,536 GPU ready: NVIDIA GeForce RTX 4060 Laptop GPU; MACE-MP-0b3-medium; float64
+2026-10-12 16:18:06,592 coarse0_000 a=5.2426074 A E=-5.294753053 eV/atom P=+12.656285 GPa (0.050s)
+2026-10-12 16:18:06,646 coarse0_001 a=5.2619529 A E=-5.309745355 eV/atom P=+11.358667 GPa (0.051s)
+2026-10-12 16:18:06,706 coarse0_002 a=5.2811573 A E=-5.323153600 eV/atom P=+10.119199 GPa (0.054s)
+2026-10-12 16:18:06,758 coarse0_003 a=5.3002230 A E=-5.335047658 eV/atom P=+8.933573 GPa (0.049s)
+2026-10-12 16:18:06,815 coarse0_004 a=5.3191526 A E=-5.345492444 eV/atom P=+7.798146 GPa (0.052s)
+2026-10-12 16:18:06,864 coarse0_005 a=5.3379483 A E=-5.354548679 eV/atom P=+6.709827 GPa (0.045s)
+2026-10-12 16:18:06,915 coarse0_006 a=5.3566126 A E=-5.362273520 eV/atom P=+5.665982 GPa (0.046s)
+2026-10-12 16:18:06,965 coarse0_007 a=5.3751478 A E=-5.368721061 eV/atom P=+4.664330 GPa (0.046s)
+2026-10-12 16:18:07,014 coarse0_008 a=5.3935559 A E=-5.373942732 eV/atom P=+3.702871 GPa (0.046s)
+2026-10-12 16:18:07,066 coarse0_009 a=5.4118393 A E=-5.377987595 eV/atom P=+2.779800 GPa (0.045s)
+2026-10-12 16:18:07,115 coarse0_010 a=5.4300000 A E=-5.380902547 eV/atom P=+1.893451 GPa (0.045s)
+2026-10-12 16:18:07,165 coarse0_011 a=5.4480400 A E=-5.382732467 eV/atom P=+1.042244 GPa (0.045s)
+2026-10-12 16:18:07,216 coarse0_012 a=5.4659613 A E=-5.383520280 eV/atom P=+0.224633 GPa (0.047s)
+2026-10-12 16:18:07,267 coarse0_013 a=5.4837659 A E=-5.383306994 eV/atom P=-0.560922 GPa (0.047s)
+2026-10-12 16:18:07,317 coarse0_014 a=5.5014556 A E=-5.382131678 eV/atom P=-1.315980 GPa (0.045s)
+2026-10-12 16:18:07,367 coarse0_015 a=5.5190322 A E=-5.380031375 eV/atom P=-2.042313 GPa (0.044s)
+2026-10-12 16:18:07,896 coarse0_016 a=5.5364976 A E=-5.377040710 eV/atom P=-2.741822 GPa (0.524s)
+2026-10-12 16:18:07,945 coarse0_017 a=5.5538535 A E=-5.373192327 eV/atom P=-3.415870 GPa (0.044s)
+2026-10-12 16:18:07,993 coarse0_018 a=5.5711016 A E=-5.368517186 eV/atom P=-4.065808 GPa (0.044s)
+2026-10-12 16:18:08,044 coarse0_019 a=5.5882436 A E=-5.363044550 eV/atom P=-4.693005 GPa (0.045s)
+2026-10-12 16:18:08,098 coarse0_020 a=5.6052810 A E=-5.356801965 eV/atom P=-5.298838 GPa (0.049s)
+2026-10-12 16:18:08,158 fine_000 a=5.3969594 A E=-5.374781140 eV/atom P=+3.528662 GPa (0.048s)
+2026-10-12 16:18:08,211 fine_001 a=5.4044448 A E=-5.376487165 eV/atom P=+3.149361 GPa (0.049s)
+2026-10-12 16:18:08,262 fine_002 a=5.4119095 A E=-5.378000964 eV/atom P=+2.776315 GPa (0.046s)
+2026-10-12 16:18:08,313 fine_003 a=5.4193537 A E=-5.379325704 eV/atom P=+2.409414 GPa (0.047s)
+2026-10-12 16:18:08,365 fine_004 a=5.4267775 A E=-5.380464497 eV/atom P=+2.048548 GPa (0.046s)
+2026-10-12 16:18:08,416 fine_005 a=5.4341810 A E=-5.381420401 eV/atom P=+1.693609 GPa (0.046s)
+2026-10-12 16:18:08,467 fine_006 a=5.4415644 A E=-5.382196417 eV/atom P=+1.344491 GPa (0.046s)
+2026-10-12 16:18:08,518 fine_007 a=5.4489278 A E=-5.382795492 eV/atom P=+1.001089 GPa (0.045s)
+2026-10-12 16:18:08,568 fine_008 a=5.4562714 A E=-5.383220520 eV/atom P=+0.663296 GPa (0.046s)
+2026-10-12 16:18:08,620 fine_009 a=5.4635953 A E=-5.383474342 eV/atom P=+0.331009 GPa (0.046s)
+2026-10-12 16:18:08,672 fine_010 a=5.4708996 A E=-5.383559743 eV/atom P=+0.004122 GPa (0.046s)
+2026-10-12 16:18:08,723 fine_011 a=5.4781844 A E=-5.383479456 eV/atom P=-0.317471 GPa (0.045s)
+2026-10-12 16:18:08,772 fine_012 a=5.4854499 A E=-5.383236160 eV/atom P=-0.633878 GPa (0.044s)
+2026-10-12 16:18:08,823 fine_013 a=5.4926962 A E=-5.382832476 eV/atom P=-0.945205 GPa (0.047s)
+2026-10-12 16:18:08,876 fine_014 a=5.4999234 A E=-5.382270974 eV/atom P=-1.251561 GPa (0.046s)
+2026-10-12 16:18:08,924 fine_015 a=5.5071317 A E=-5.381554165 eV/atom P=-1.553059 GPa (0.044s)
+2026-10-12 16:18:08,975 fine_016 a=5.5143212 A E=-5.380684489 eV/atom P=-1.849877 GPa (0.045s)
+2026-10-12 16:18:09,023 fine_017 a=5.5214920 A E=-5.379664300 eV/atom P=-2.142150 GPa (0.043s)
+2026-10-12 16:18:09,072 fine_018 a=5.5286442 A E=-5.378495896 eV/atom P=-2.429968 GPa (0.043s)
+2026-10-12 16:18:09,120 fine_019 a=5.5357779 A E=-5.377181530 eV/atom P=-2.713424 GPa (0.043s)
+2026-10-12 16:18:09,173 fine_020 a=5.5428933 A E=-5.375723408 eV/atom P=-2.992609 GPa (0.047s)
+2026-10-12 16:18:09,280 eos_equilibrium a=5.4709939 A E=-5.383559757 eV/atom P=-0.000071 GPa (0.045s)
+2026-10-12 16:18:09,333 pressure_minus_0.002 a=5.4673441 A E=-5.383539010 eV/atom P=+0.162679 GPa (0.045s)
+2026-10-12 16:18:09,387 pressure_plus_0.002 a=5.4746388 A E=-5.383539087 eV/atom P=-0.161497 GPa (0.049s)
+2026-10-12 16:18:09,438 pressure_minus_0.001 a=5.4691696 A E=-5.383554581 eV/atom P=+0.081138 GPa (0.046s)
+2026-10-12 16:18:09,490 pressure_plus_0.001 a=5.4728170 A E=-5.383554578 eV/atom P=-0.080948 GPa (0.045s)
+2026-10-12 16:18:09,491 Run interrupted
+Traceback (most recent call last):
+  File "C:\Users\24995\Desktop\mace-crystal-equilibrium\src\mace_crystal_equilibrium\runner.py", line 224, in run
+    checks = self.validations(analysis)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24995\Desktop\mace-crystal-equilibrium\src\mace_crystal_equilibrium\runner.py", line 143, in validations
+    persist("pressure", {"at_eos_V0_pressure_GPa": eq["pressure_GPa"], "central_differences": derivatives,
+  File "C:\Users\24995\Desktop\mace-crystal-equilibrium\src\mace_crystal_equilibrium\runner.py", line 129, in persist
+    save_json(path, checks)
+  File "C:\Users\24995\Desktop\mace-crystal-equilibrium\src\mace_crystal_equilibrium\backend.py", line 27, in save_json
+    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24995\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\24995\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\24995\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\24995\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\24995\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\24995\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\24995\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable
+2026-10-12 16:18:34,728 GPU ready: NVIDIA GeForce RTX 4060 Laptop GPU; MACE-MP-0b3-medium; float64
+2026-10-12 16:18:40,385 Completed: a0=5.47099390 A B0=81.085823 GPa; issues=[]

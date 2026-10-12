@@ -1,0 +1,38 @@
+{
+  "config": {
+    "mode": "production",
+    "model": "MACE-MP-0b3-medium",
+    "dtype": "float64",
+    "device": "cuda",
+    "head": "default",
+    "coarse_points": 21,
+    "coarse_volume_fraction": 0.1,
+    "fine_points": 21,
+    "fine_volume_fraction": 0.04,
+    "validations": [
+      "pressure",
+      "optimize",
+      "periodicity",
+      "precision",
+      "timing"
+    ],
+    "material": "Al"
+  },
+  "model_sha256": "2f2be696351ac9e94fbe01cdfb6f017679acdbd2db7645209ef55fec9826b012",
+  "versions": {
+    "mace-torch": "0.3.16",
+    "torch": "2.6.0+cu126",
+    "ase": "3.26.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "e3nn": "0.4.4"
+  },
+  "inference_source_hashes": {
+    "backend.py": "534aa5065dab501165fffee013d5353ca33ddfb0a382503de587756908b8edce",
+    "structures.py": "910ce7edb56f5a0ac3519f8595e968bdf9453e74fd2ce949e0a28e3a517b29b8",
+    "units.py": "dbff57aa8f8938241a2c4c359abf71fcd6432afb867a6039a8ec98827b60cc2f"
+  },
+  "schema_version": 1,
+  "fingerprint": "345d8b8d8b68f5902b8a544fc6b30779940d00894c69142fc365b5ae792bafe4"
+}

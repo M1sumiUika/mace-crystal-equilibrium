@@ -1,0 +1,32 @@
+{
+  "figure": "C:\\Users\\24995\\Desktop\\mace-crystal-equilibrium\\results\\reference_comparison.png",
+  "comparisons": [
+    {
+      "material": "Si",
+      "reference_id": "delta_wien2k_pbe",
+      "reference_source_url": "https://raw.githubusercontent.com/molmod/DeltaCodesDFT/f9b6693763dea92d43ee48f172c02bc506876f06/WIEN2k.txt",
+      "reference_conditions": "static lattice; no zero-point or thermal corrections; no spin-orbit coupling",
+      "run_directory": "C:\\Users\\24995\\Desktop\\mace-crystal-equilibrium\\results\\production\\Si",
+      "calculated_a0_A": 5.4709939008122115,
+      "reference_a0_A": 5.469517318183189,
+      "relative_difference_a0_A_percent": 0.026996580193894282,
+      "calculated_B0_GPa": 81.08582339976275,
+      "reference_B0_GPa": 88.545,
+      "relative_difference_B0_GPa_percent": -8.4241646623042
+    },
+    {
+      "material": "Al",
+      "reference_id": "delta_wien2k_pbe",
+      "reference_source_url": "https://raw.githubusercontent.com/molmod/DeltaCodesDFT/f9b6693763dea92d43ee48f172c02bc506876f06/WIEN2k.txt",
+      "reference_conditions": "static lattice; no zero-point or thermal corrections; no spin-orbit coupling",
+      "run_directory": "C:\\Users\\24995\\Desktop\\mace-crystal-equilibrium\\results\\production\\Al",
+      "calculated_a0_A": 4.063224411559537,
+      "reference_a0_A": 4.0395738530346375,
+      "relative_difference_a0_A_percent": 0.585471621149658,
+      "calculated_B0_GPa": 58.453611321552955,
+      "reference_B0_GPa": 78.077,
+      "relative_difference_B0_GPa_percent": -25.133379456750436
+    }
+  ],
+  "interpretation": "Relative differences against each material's own static PBE/WIEN2k reference; not a universal model-accuracy or generalization claim"
+}
