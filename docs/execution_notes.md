@@ -8,5 +8,7 @@
 - 可选 cuequivariance 未安装；使用 MACE 默认 e3nn CUDA 路径，未启用该可选加速。CUDA 参数设备和输入张量设备仍逐次验证。
 - NumPy 2.5 对 ASE 3.26 数组 shape 设置有弃用提示；不影响本次测试结果。完整固定依赖版本见锁文件。
 - Si 首次生产扫描完整保存 42 个点与压力差分点后，验证 JSON 保存遇到 `TypeError: Object of type bool is not JSON serializable`（NumPy 标量布尔类型）。已修复验证结果到 Python 标量的转换，并通过 `--resume` 继续；模型、dtype、原始推理实现未改变。原始点保持不变，失败和恢复来源保留于日志及 attempts。
+- 实际负向恢复检查：对已完成的 float64 smoke 请求 float32 并添加 `--resume`，程序拒绝 `Resume rejected: configuration, model hash or dependency versions differ`，没有拼接新精度数据。记录在该目录 `last_error_*.json`。
+- GitHub 私有仓库创建后，首次 Git 直连报 `Failed to connect to github.com port 443`。沿用机器已有代理后推送成功，详见 [上传说明](github_upload.md)。
 
 正式计算及最终验证结论以 [报告](report_zh.md) 与各运行 `status.json` 为准。未运行的平台、额外 DFT、有限温度和 CPU 性能对照不计为已完成。

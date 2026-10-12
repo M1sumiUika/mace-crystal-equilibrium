@@ -2,9 +2,11 @@
 
 本项目只应把代码、文档、必要的实际结果与文献数据提交到 Git。模型权重、下载缓存、`.venv`、密钥、令牌和私密文件由 `.gitignore` 排除。当前工作区原有的空 `1.py` 被保留并忽略。
 
-本次已通过本机 Git Credential Manager 验证用户指定的 `M1sumiUika` 账号，并实际创建 [mace-crystal-equilibrium 私有仓库](https://github.com/M1sumiUika/mace-crystal-equilibrium)；API 返回 `private: true`。认证凭据未写入项目或远端 URL。真实提交记录以 `git log` 和远端 `main` 为准，不补造历史提交、经历或日期。
+本次已通过本机 Git Credential Manager 验证用户指定的 `M1sumiUika` 账号，实际创建并推送到 [mace-crystal-equilibrium 私有仓库](https://github.com/M1sumiUika/mace-crystal-equilibrium)；API 返回 `private: true`。认证凭据未写入项目或远端 URL。真实提交记录以 `git log` 和远端 `main` 为准，不补造历史提交、经历或日期。
 
 日后在本工作区更新：`git add .`、`git commit -m "Describe the actual change"`、`git push`。下面保留从其他工作区新建私有仓库的通用操作说明；已存在的仓库无需重复创建。
+
+本机首次 Git 直连 GitHub 443 端口超时，而系统已有 HTTP 代理 `127.0.0.1:7897`。使用该现有代理后推送成功，项目本地 `.git/config` 配置了同一代理，未改变全局 Git 设置。如果关闭或更换代理，可用 `git config --local --unset http.proxy` 清除此项目设置，然后按实际网络配置重新连接。代理设置不提交到 Git。
 
 ## 使用 GitHub CLI
 
